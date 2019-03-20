@@ -1,0 +1,36 @@
+{
+  "name": "gazetem_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-navigation-bar": "^0.2.1",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-size-matters": "^0.1.6",
+    "react-native-vector-icons": "^6.4.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.3.1",
+    "eslint": "^5.15.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "24.3.1",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
